@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ftp.speedocarwash.com
-        username: ftpaccount1@speedocarwash.com
+        username: ftpaccount@speedocarwash.com
         password: ${{ secrets.ftp_password }}
         server-dir: /public_html/shakeel/
