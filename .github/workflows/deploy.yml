@@ -17,4 +17,4 @@ jobs:
         server: ftp.speedocarwash.com
         username: test@speedocarwash.com
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/shakeel/
+        server-dir: shakeel/
